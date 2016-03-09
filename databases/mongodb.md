@@ -26,7 +26,7 @@ MongoClient.connect('mongodb://localhost:27017/feathers').then(function(db){
 
 ## Options
 
-The following options can be passed when creating a new NeDB service:
+The following options can be passed when creating a new MongoDB service:
 
 - `Model` (**required**) - The MongoDB collection instance
 - `id` (default: '_id') [optional] - The id field for your documents for this service.
